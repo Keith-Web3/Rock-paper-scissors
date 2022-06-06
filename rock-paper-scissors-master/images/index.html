@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow Semi Condensed:600,700">
+  <script src="index.js" defer></script>
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="options">
+    <div class="score">
+      <p class="score-text">SCORE</p>
+      <p class="score-value" id="score">0</p>
+    </div>
+  </header>
+  <main>
+    <section class="step-1">
+      <img src="bg-triangle.svg" alt="triangle">
+      <div class="option-container paper">
+        <div class="option">
+          <img src="icon-paper.svg" alt="option">
+        </div>
+      </div>
+      <div class="option-container scissors">
+        <div class="option">
+          <img src="icon-scissors.svg" alt="option">
+        </div>
+      </div>
+      <div class="option-container rock">
+        <div class="option">
+          <img src="icon-rock.svg" alt="option">
+        </div>
+      </div>
+    </section>
+    <section class="step-1-advanced">
+      <img src="bg-pentagon.svg" alt="pentagon">
+      <div class="option-container paper" id="paper-1">
+        <div class="option">
+          <img src="icon-paper.svg" alt="option">
+        </div>
+      </div>
+      <div class="option-container scissors" id="scissors-1">
+        <div class="option">
+          <img src="icon-scissors.svg" alt="option">
+        </div>
+      </div>
+      <div class="option-container rock" id="rock-1">
+        <div class="option">
+          <img src="icon-rock.svg" alt="option">
+        </div>
+      </div>
+      <div class="option-container lizard" id="lizard">
+        <div class="option">
+          <img src="icon-lizard.svg" alt="option">
+        </div>
+      </div>
+      <div class="option-container spock" id="spock">
+        <div class="option">
+          <img src="icon-spock.svg" alt="option">
+        </div>
+      </div>
+    </section>
+    <section class="step-2">
+      <div class="player-pick pick">
+        <p class="player-pick-text">YOU PICKED</p>
+        <div class="option-container replace"></div>
+      </div>
+      <div class="annouce-winner">
+        <p class="annouce-winner-text">YOU WIN</p>
+        <div class="play-again-btn">PLAY AGAIN</div>
+      </div>
+      <div class="computer-pick pick">
+        <p class="house-pick-text">THE HOUSE PICKED</p>
+        <div class="option-container replace"></div>
+      </div>
+    </section>
+  </main>
+  <section class="extra">
+    <div class="advanced">ADVANCE</div>
+    <div class="rules-btn">RULES</div>
+  </section>
+  <aside>
+    <p class="aside-rules">RULES</p>
+    <img src="image-rules.svg" alt="rules" class="rules-img">
+    <img src="icon-close.svg" alt="close-rules" class="close-rules">
+  </aside>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://wa.me/+2348097140374">Coder Keith</a>.
+  </div> -->
+</body>
+</html>
